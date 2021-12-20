@@ -1,4 +1,5 @@
 from turtle import *
+import turtle
 
 class Character:
 
@@ -316,7 +317,7 @@ def main():
     screen.bgcolor("light green")
     character = Character()
     character.start()
-
+    turtle.done()
 
 if __name__ == '__main__':
     main()
