@@ -255,7 +255,7 @@ class Character:
         t.seth(100)
         t.fd(10)
         t.seth(125)
-        t.circle(500, 24.25)
+        t.circle(500, 19)
         t.seth(210)
         t.end_fill()
 
@@ -318,6 +318,7 @@ def main():
     character = Character()
     character.start()
     turtle.done()
+
 
 if __name__ == '__main__':
     main()
